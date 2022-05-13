@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>VIRTUALIZING THE HUMAN BODY</title>
+        <link rel="stylesheet" href="stylesheets/styles.css">
+    </head>
+    <body>
+      <!--------------------------------------------------------------Top Bit---------------------------------------------------------->
+      <!-- reminder to put a cool graphic under this-->
+      <h1>2.S972: Virtualizing the Human Body</h1>
+      <h2>Spring, 2022</h2>
+      <h2>Massachusetts Institute of Technology</h2>
+      <p class = "introtext">
+        In this special first-of-its-kind elective, students explored the boundaries of virtual reality and the human body.
+        Topics included brain-computer integration with virtual reality, haptic technologies, and other senses.
+        Guest lecturers were experts in both academia and industry.
+        Students will learned how to make virtual reality experiences in the game engine Unity, and the semester culminated with a demos of
+         new product/service which were presented to an audience of distinguished guests/investors/partners.
+      </p>
+      <!--------------------------------------------------------Menu (Sideways, Fancy)------------------------------------------------->
+      <div class = "menu">
+        <a class = "menuitem" href="#teachingteam">Teaching Team</a>
+        <a class = "menuitem" href="#guestspeakers">Guest Speakers</a>
+        <a class = "menuitem" href="#studentprojects">Student Projects</a>
+      </div>
+      <!-------------------------------------------------------------Teaching Team----------------------------------------------------->
+      <div id = "teachingteam">
+        <h2>Teaching Team</h2>
+        <h3 class = "personname">Ken Zolot</h3>
+        <div class = "personcontainer">
+          <!---<img src = 'images/ofPeople/AubreySimonson.jpg' class = "portrait">-->
+          <span class = "persondescription">
+            Put bio here!
+          <span>
+        </div>
+
+        <h3 class = "personname">Aubrey Simonson</h3>
+        <div class = "personcontainer">
+          <img src = 'images/ofPeople/AubreySimonson.jpg' class = "portrait">
+          <span class = "persondescription">
+            Aubrey is a Unity developer and VR interaction designer. He holds an MS from
+            the MIT Media Lab, where he wrote the thesis
+            <a href = "https://drive.google.com/file/d/1p6IUu9QIzWNBERz3IW_yVcojQjVz06rl/view">
+              An Integrated System for Interaction in Virtual Environments
+            </a>
+            as a memeber of the Fluid Interfaces Group,
+            and BAs from Wellesley College in Political Science and Media Arts and Sciences.
+            His other work can be found at <a href = "https://aubreysimonson.gitlab.io/page/">aubreysimonson.com</a>.
+            He also made this website :)
+          <span>
+        </div>
+
+        <h3 class = "personname">Melissa Dearborn</h3>
+        <div class = "personcontainer">
+          <!---<img src = 'images/ofPeople/AubreySimonson.jpg' class = "portrait">-->
+          <span class = "persondescription">
+            Put bio here!
+          <span>
+        </div>
+
+        <h3 class = "personname">Lucas De Bonnet</h3>
+        <div class = "personcontainer">
+          <!---<img src = 'images/ofPeople/AubreySimonson.jpg' class = "portrait">-->
+          <span class = "persondescription">
+            Put bio here!
+          <span>
+        </div>
+
+      </div>
+      <!------------------------------------------------------------Guest Speakers----------------------------------------------------->
+      <div id = "guestspeakers">
+        <h2>Guest Speakers</h2>
+
+        <h3 class = "personname">Cathy Fang</h3>
+        <div class = "personcontainer">
+          <!---<img src = 'images/ofPeople/AubreySimonson.jpg' class = "portrait">-->
+          <span class = "persondescription">
+            Cathy is a member of the MIT Media Lab Tangible Media Group, headed by CHI lifetime achievement award winner Hiroshi Ishii.
+            Her work is on novel, simple, and low-tech approaches to haptics such as simple force-feedback devices and redirected touch.
+          </span>
+          <span class = "persondescription">
+            <h4>
+              Reading assigned:
+            </h4>
+            <ul>
+              <li>
+                <a href = "https://cathy-fang.com/image/wireality/Wireality_CHI_Final_Permission.pdf">
+                  WireReality: Enabling Complex Tangible Geometries in Virtual Reality with Worn Multi-String Haptics
+                </a>
+              </li>
+              <li>
+                <a href = "https://cathy-fang.com/image/selfhaptics/RetargetedSelfHaptics_UIST21_Final.pdf">
+                  Retargeted Self-Haptics for Increased Immersion in VR without Instrumentation
+                </a>
+              </li>
+            </ul>
+          </span>
+        </div>
+
+        <h3 class = "personname">Professor Sanjay Sarma // Alex Urpi</h3>
+        <div class = "personcontainer">
+          <!---<img src = 'images/ofPeople/AubreySimonson.jpg' class = "portrait">-->
+          <span class = "persondescription">
+            Professor Sanjay Sarma, and his PhD student, Alex Urpi, conduct research on SSVEP, a form of BCI.
+          </span>
+          <span class = "persondescription">
+            <h4>
+              Reading assigned:
+            </h4>
+            <ul>
+              <li>
+                <a href = "https://ieeexplore.ieee.org/abstract/document/8798053">
+                  MagicHand: Interact with IoT Devices in Augmented Reality Environment
+                </a>
+              </li>
+              <li>
+                <a href = "https://ieeexplore.ieee.org/document/8552778">
+                  X-Vision: An Augmented Vision Tool with Real-Time Sensing Ability in Tagged Environments
+                </a>
+              </li>
+              <li>
+                <a href = "https://dl.acm.org/doi/abs/10.1145/3281505.3281514">
+                  Sublime: a Hands-Free Virtual Reality Menu Navigation System Using a High-Frequency SSVEP-based Brain-Computer Interface
+                </a>
+              </li>
+            </ul>
+          </span>
+        </div>
+
+        <h3 class = "personname">Dan Novy</h3>
+        <div class = "personcontainer">
+          <!---<img src = 'images/ofPeople/AubreySimonson.jpg' class = "portrait">-->
+          <span class = "persondescription">
+            Dan Novy (also known as NovySan) is a Research Scientist at the MIT Media Lab,
+            where he works to decrease the alienation fostered by traditional passive media consumption;
+            increase social interaction through transparent, interconnected and fluid media;
+            and create enriched, active, and inspired immediate experiences.
+            He is an Emmy- and Visual Effects Society Award-winning VFX technical supervisor, transmedia experience designer, and artist.
+            At the University of Illinois at Urbana-Champaign, he received a BFA in theatre and an MA in theatre history, with a double
+            emphasis in the technical history of the theatre and shamanic ritual performance in pre-agrarian societies.
+            He is the former chair of the Visual Effects Society's Technology Committee, former visiting scientist at Magic Leap,
+            and co-instructor of the Media Lab's "Science Fiction-Inspired Prototyping" and "Indistinguishable From Magic" classes.
+          </span>
+        </div>
+
+        <h3 class = "personname">Nataliya Kos'myna</h3>
+        <div class = "personcontainer">
+          <!---<img src = 'images/ofPeople/AubreySimonson.jpg' class = "portrait">-->
+          <span class = "persondescription">
+            Nataliya is passionate about an idea of creating a partnership between AI and human intelligence,
+            fusion of a machine and a human brain.
+            She obtained her Ph.D in 2015 in the domain of non-invasive Brain-Computer Interfaces (BCIs)
+            as a part of EHCI team of Université Grenoble-Alpes, France.
+            Most of her projects are focused around EEG-based BCIs in the context of consumer grade applications.
+            Since 2016 Nataliya is also interested in closed-loop systems using real-time biofeedback to enhance
+            and augment human performance, particularly attention and focus.
+          </span>
+          <span class = "persondescription">
+            <h4>
+              Reading assigned:
+            </h4>
+            <ul>
+              <li>
+                <a href = "https://www.frontiersin.org/articles/10.3389/fnhum.2020.00144/full">
+                  Editorial: Brain-Computer Interfaces and Augmented/Virtual Reality
+                </a>
+              </li>
+              <li>
+                <a href = "https://link.springer.com/chapter/10.1007/978-3-030-14323-7_16">
+                  Methods and Tools for Using BCI with Augmented and Virtual Reality
+                </a>
+              </li>
+            </ul>
+          </span>
+        </div>
+
+        <h3 class = "personname">Guillermo Bernal</h3>
+        <div class = "personcontainer">
+          <!---<img src = 'images/ofPeople/AubreySimonson.jpg' class = "portrait">-->
+          <span class = "persondescription">
+            Guillermo’s work focuses on the back-and-forth between the physical and the virtual.
+            He explores embodiment and experiences that address the augmentation of ourselves as
+            technology integrated in our lives.
+            This is done by assessing the emotional response from the body while interacting with
+            future technologies as they become a reality. His current research explorations use
+            real body characteristics, including electrodermal activity, electromyography, and
+            electrocardiography, as low-fidelity indicators of our current state.
+          </span>
+          <span class = "persondescription">
+            <h4>
+              Reading assigned:
+            </h4>
+            <ul>
+              <li>
+                <a href = "https://dl.acm.org/doi/10.1145/3267242.3267268">
+                  PhysioHMD: a conformable, modular toolkit for collecting physiological data from head-mounted displays
+                </a>
+              </li>
+            </ul>
+          </span>
+        </div>
+
+        <h3 class = "personname">Tony Shu</h3>
+        <div class = "personcontainer">
+          <!---<img src = 'images/ofPeople/AubreySimonson.jpg' class = "portrait">-->
+          <span class = "persondescription">
+            Tony is a graduate student within the Program in Media Arts and Sciences at MIT.
+            He holds a B.S in Materials Science and Engineering with minor in
+            Computing and Artificial Intelligence from the Georgia Institute of Technology.
+            As an undergraduate, Tony conducted research in the areas of biodegradable nanocomposite synthesis,
+            superalloy additive manufacturing, and transfemoral prosthesis control.
+            His current research leverages biomechanical models to enable intuitive
+            control of external devices through native body signals.
+          </span>
+          <span class = "persondescription">
+            <h4>
+              Reading assigned:
+            </h4>
+            <ul>
+              <li>
+                <a href = "https://www.ted.com/talks/hugh_herr_the_new_bionics_that_let_us_run_climb_and_dance">
+                  The new bionics that let us run, climb and dance
+                </a>
+              </li>
+              <li>
+                <a href = "https://www.ted.com/talks/hugh_herr_how_we_ll_become_cyborgs_and_extend_human_potential">
+                  How we'll become cyborgs and extend human potential
+                </a>
+              </li>
+              <li>
+                <a href = "https://ieeexplore.ieee.org/abstract/document/9492290">
+                  Design and Preliminary Results of a Reaction Force Series Elastic Actuator for Bionic Knee and Ankle ProsthesesMa
+                </a>
+              </li>
+              <li>
+                an excerpt from a video by Neville Hogan, a MIT mechE professor, on the paradox of human performance
+              </li>
+            </ul>
+          </span>
+        </div>
+
+        <h3 class = "personname">Cyan Deveaux</h3>
+        <div class = "personcontainer">
+          <!---<img src = 'images/ofPeople/AubreySimonson.jpg' class = "portrait">-->
+          <span class = "persondescription">
+            Cyan is a first-year Ph.D. Student at Stanford University.
+            She is part of the Stanford Virtual Human Interaction Lab where she is advised by Jeremy Bailenson.
+            Her research interests include educational AR/VR, immersive arts + culture experiences, and social interaction in the metaverse.
+            Prior to graduate school, she worked as a Software Engineer at Google and earned an
+            interdepartmental B.A. from Duke University in Computer Science and Visual & Media Studies.
+          </span>
+          <span class = "persondescription">
+            <h4>
+              Reading assigned:
+            </h4>
+            <ul>
+              <li>
+                <a href = "https://news.stanford.edu/2021/11/05/new-class-among-first-taught-entirely-virtual-reality/">
+                  Stanford course allows students to learn about virtual reality while fully immersed in VR environments
+                </a>
+              </li>
+              <li>
+                <a href = "https://www.newsy.com/stories/stanford-virtual-reality-class-puts-students-in-metaverse/">
+                  Stanford Virtual Reality Class Immerses Students In Metaverse
+                </a>
+              </li>
+              <li>
+                <a href = "https://link.springer.com/article/10.1007/s10648-020-09586-2">
+                  The Cognitive Affective Model of Immersive Learning (CAMIL): a Theoretical Research-Based Model of Learning in Immersive Virtual Reality
+                </a>
+              </li>
+            </ul>
+          </span>
+        </div>
+
+        <h3 class = "personname">Mar Gonzalez-Franco</h3>
+        <div class = "personcontainer">
+          <!---<img src = 'images/ofPeople/AubreySimonson.jpg' class = "portrait">-->
+          <span class = "persondescription">
+            Mar is a researcher in the EPIC (Extended Perception Interaction and Cognition)
+            team at Microsoft Research and received her Ph.D. under the supervision of Prof. Mel Slater.
+            Her work and research focuses on exploring human behavior and perception to help build better technologies,
+            mostly in the domain of avatars and haptics.
+            Her team at Microsoft Research has developed the Locomotion Vault: the Extra Mile in Analyzing VR Locomotion Techniques
+            Mar is the recepient of the 2022 IEEE VGTC Virtual Reality Significant New Researcher Award.
+          </span>
+          <span class = "persondescription">
+            <h4>
+              Reading assigned:
+            </h4>
+            <ul>
+              <li>
+                <a href = "https://www.frontiersin.org/articles/10.3389/fpsyg.2017.01125/full">
+                  Models of Illusions and Virtual Reality
+                </a>
+              </li>
+              <li>
+                <a href = "https://engineeringcommunity.nature.com/posts/shape-displays-building-the-next-generation-desktops">
+                  Building the next generation of Shape Displays
+                </a>
+              </li>
+              <li>
+                Hand-Object haptics for Virtual Reality-- no link, not yet published
+              </li>
+            </ul>
+          </span>
+        </div>
+
+        <h3 class = "personname">Professor Dave Parisi</h3>
+        <div class = "personcontainer">
+          <!---<img src = 'images/ofPeople/AubreySimonson.jpg' class = "portrait">-->
+          <span class = "persondescription">
+            David Parisi is a haptic thought leader, author, and professor.
+            He is the author of the book, "Archaeologies of Touch: Interfacing with Haptics from Electricity to Computing"
+            who also frequently writes about haptics and emerging media in the tech press.
+          </span>
+          <span class = "persondescription">
+            <h4>
+              Reading assigned:
+            </h4>
+            <ul>
+              <li>
+                <a href = "https://www.podchaser.com/podcasts/the-haptics-podcast-1545727/episodes/expanding-the-universe-of-hapt-82690600">
+                  Expanding the Universe of Haptics: A Chat Between David Parisi and Daniel Büttner
+                </a>
+              </li>
+              <li>
+                <a href = "https://medium.com/lofelt/expanding-the-universe-of-haptics-8c6189636e2f">
+                  Expanding the Universe of Haptics
+                </a>
+              </li>
+              <li>
+                <a href = "https://reallifemag.com/cant-touch-this/">
+                  Can’t Touch This: Haptics devices probably won’t ever live up to their promise to replicate physical contact
+                </a>
+              </li>
+            </ul>
+          </span>
+        </div>
+
+        <h3 class = "personname">Craig Douglass // John (Trey) Schroeder</h3>
+        <div class = "personcontainer">
+          <!---<img src = 'images/ofPeople/AubreySimonson.jpg' class = "portrait">-->
+          <span class = "persondescription">
+            Craig and Trey are the CEO and CTO of Contact CI, a company focused on haptic feedback via datagloves.
+          </span>
+          <span class = "persondescription">
+            <h4>
+              Reading assigned:
+            </h4>
+            <ul>
+              <li>
+                <a href = "https://contact.ci/#maestro-product">
+                  Explore the Contact CI Website
+                </a>
+              </li>
+            </ul>
+          </span>
+        </div>
+
+        <h3 class = "personname">Eric Vezzoli</h3>
+        <div class = "personcontainer">
+          <!---<img src = 'images/ofPeople/AubreySimonson.jpg' class = "portrait">-->
+          <span class = "persondescription">
+            Eric is the host and co-founder of the Haptics Club, an open community talking about haptics,
+            which routinely hosts speakers from industry and academia.
+            He is also a member of the Haptic Industry Forum,
+            an organization created to streamline haptics standards and adoption.
+            As part of this organization, he is co-author of the recent book
+            XR Haptics: Implementation and Design Guidelines. Eric received his Doctor Ph.D.,
+            in Electrical Engineering, Haptic, Tactile Interface Design and Tactile Perception from
+            the University of Lille 1 Sciences and Technology. During his studies Eric worked with the
+            distinguished Professor Vincent Hayward, a world-renowned engineer specializing in touch and haptics.
+          </span>
+          <span class = "persondescription">
+            <h4>
+              Reading assigned:
+            </h4>
+            <ul>
+              <li>
+                <a href = "https://www.interhaptics.com/">
+                  Explore the Interhaptics Website
+                </a>
+              </li>
+              <li>
+                <a href = "https://hapticsif.org/xr-haptics-book/">
+                  An excerpt from XR Haptics: Implementation and Design Guidelines
+                </a>
+              </li>
+            </ul>
+          </span>
+        </div>
+
+        <h3 class = "personname">Pedro Lopes</h3>
+        <div class = "personcontainer">
+          <!---<img src = 'images/ofPeople/AubreySimonson.jpg' class = "portrait">-->
+          <span class = "persondescription">
+            Pedro Lopes is an Assistant Professor at the University of Chicago.
+            His work focuses on haptics via less conventional means,
+            such as the application of chemicals and electrical signals to the body.
+          </span>
+          <span class = "persondescription">
+            <h4>
+              Reading assigned:
+            </h4>
+            <ul>
+              <li>
+                <a href = "https://lab.plopes.org/published/2021-UIST-ChemicalHaptics.pdf">
+                  Chemical Haptics: Rendering Haptic Sensations via Topical Stimulants
+                </a>
+              </li>
+              <li>
+                <a href = "https://hpi.de/fileadmin/user_upload/fachgebiete/baudisch/projects/mobile_force_feedback/2017-CHI-VRwalls.pdf">
+                  Providing Haptics to Walls & Heavy Objects in Virtual Reality by Means of Electrical Muscle Stimulation
+                </a>
+              </li>
+            </ul>
+          </span>
+        </div>
+
+        <h3 class = "personname">Margaret Minsky</h3>
+        <div class = "personcontainer">
+          <!---<img src = 'images/ofPeople/AubreySimonson.jpg' class = "portrait">-->
+          <span class = "persondescription">
+             Margaret Minsky is a visiting professor of Interactive Media Arts at NYU-Shanghai.
+             Professor Minsky creates multimedia artifacts exploring learning, improvisation and thought.
+             Her core research has been in the field of haptics, as well as in computer graphics and educational technology.
+             Her recent investigations are in whole-body interaction in technology and arts environments,
+             with research aimed at increasing cognitive, social, and physical wellbeing.
+             Dr. Minsky previously directed research at Atari Cambridge Laboratory and Interval Research Corporation.
+          </span>
+          <span class = "persondescription">
+            <h4>
+              Reading assigned:
+            </h4>
+            <ul>
+              <li>
+                <a href = "https://dl.acm.org/doi/pdf/10.1145/91385.91451">
+                  Feeling and Seeing: Issues in Force Display
+                </a>
+              </li>
+              <li>
+                <a href = "https://icat.vrsj.org/ICAT2003/papers/97027.pdf">
+                  Will Haptics Research Parallel Computer Graphics.
+                </a>
+              </li>
+              <li>
+                <a href = "https://www.dropbox.com/s/5dt3a2uoxtd7hw9/Marg_Sonya_ATLAS_Residency_Aerial-365.mp4?dl=0">
+                  performance piece exploring the interaction of the whole body with the immersive workplace, choreographed and performed by Margaret Minsky and Sonya Smith, ATLAS Institute, U. of Colorado Boulder
+                </a>
+              </li>
+            </ul>
+          </span>
+        </div>
+
+      </div>
+      <!----------------------------------------------------------Student Projects---------------------------------------------------->
+      <div id = "studentprojects">
+        <h2>Student Projects</h2>
+
+        <h3 class = "teamname">MobiusWalk: Powered Omnidirectional Treadmill</h3>
+        <!-- include video, log book, apk link -->
+        <h4 class = "personname">Sabrina Hare</h4>
+        <div class = "personcontainer">
+          <!---<img src = 'images/ofPeople/AubreySimonson.jpg' class = "portrait">-->
+          <span class = "persondescription">
+             Hardware design reviews
+          </span>
+        </div>
+        <h4 class = "personname">Louisa Wood</h4>
+        <div class = "personcontainer">
+          <!---<img src = 'images/ofPeople/AubreySimonson.jpg' class = "portrait">-->
+          <span class = "persondescription">
+             Unity development & hardware design
+          </span>
+        </div>
+        <h4 class = "personname">Charles Young</h4>
+        <div class = "personcontainer">
+          <!---<img src = 'images/ofPeople/AubreySimonson.jpg' class = "portrait">-->
+          <span class = "persondescription">
+             Hardware & embedded system development
+          </span>
+        </div>
+
+        <div class = "mediacontent">
+          <p class = "projecttext">
+            Omnidirectional treadmill with a unique structural design, a unified
+            torus-like belt, that enables significantly lower cost and higher reliability.
+          </p>
+          <p class = "projecttext">
+            In topology, a torus is homeomorphic to the cartesian product of two circles,
+            which promises that one can go around the torus in two independent directions forever.
+            Coincidentally, this is exactly what an omnidirectional treadmill needs.
+            So we made our belt into this shape and designed drive modules accordingly.
+          </p>
+          <div class = "imagescontainer">
+            <img src = 'images/ofProjects/Mobius/Mobius1.png' class = "imageinset">
+            <img src = 'images/ofProjects/Mobius/Mobius2.png' class = "imageinset">
+          </div>
+          <p class = "projecttext">
+            The advantage of this design is clear: significantly less moving parts
+            that enables lower cost and higher reliability. But the process to make
+            it work is not easy, see the logbook for details. To integrate our product
+            into existing VR solutions, we implemented bluetooth connection in the onboard
+            control chip to communicate with any headset that supports bluetooth.
+          </p>
+          <div class = "imagescontainer">
+            <img src = 'images/ofProjects/Mobius/Mobius3.png' class = "imagealone">
+          </div>
+          <p class = "projecttext">
+            For the control algorithm, we decided to implement a computer-vision-based solution,
+            which provides the possibility to offer movement prediction and therefore faster response.
+            For the current stage, we used opencv to identify visual fiducials, and we plan to replace
+            it with a deep learning based pose estimation solution.
+          </p>
+          <div class = "imagescontainer">
+            <img src = 'images/ofProjects/Mobius/Mobius4.png' class = "imagealone">
+          </div>
+          <p class = "projecttext">
+            <span class = "emphasis">APK link: </span> REMINDER TO ADD LINK
+          </P>
+          <p class = "projecttext">
+            <span class = "emphasis">Log book: </span> REMINDER TO ADD LINK
+          </P>
+        </div>
+
+
+        <h3 class = "teamname">Walk This Way</h3>
+        <!--- Add full write up link, apk link, demo video  -->
+        <h4 class = "personname">Daniel Halis</h4>
+        <h4 class = "personname">Xinyi “Cindy” Yang</h4>
+
+        <div class = "mediacontent">
+          <p class = "projecttext">
+            We propose “Haptic Nudges,” an extension to redirected walking (Razzaque et al. 2002) techniques
+            to provide an intuitive, unobtrusive understanding of the real-world space. Haptic Nudges maximise
+            virtual traversal distance while increasing agency. In addition, we update existing Open Source redi-
+            rected walking toolkits (Azmandian et al. 2016), (Li et al. 2021) with new redirection algorithms
+            and expose artificial potential fields (Dong et al. 2020) for all techniques. The combination of these
+            techniques can be applied as a drop-in addition to any existing Unity project.
+          </p>
+          <div class = "imagescontainer">
+            <img src = 'images/ofProjects/Walk/Walk1.png' class = "imageinset">
+            <img src = 'images/ofProjects/Walk/Walk2.png' class = "imageinset">
+          </div>
+          <div class = "imagescontainer">
+            <img src = 'images/ofProjects/Walk/Walk3.png' class = "imageinset">
+            <img src = 'images/ofProjects/Walk/Walk4.png' class = "imageinset">
+          </div>
+          <p class = "projecttext">
+            <span class = "emphasis">APK link: </span> REMINDER TO ADD LINK
+          </P>
+          <p class = "projecttext">
+            <span class = "emphasis">Full project write up: </span> REMINDER TO ADD LINK
+          </P>
+        </div>
+
+        <!-- Some team-related media here -->
+
+        <h3 class = "teamname">Museum of the Mind</h3>
+        <h4 class = "personname">Alice Cai</h4>
+        <h4 class = "personname">Gloria Kang</h4>
+        <h4 class = "personname">Lucy Nester</h4>
+
+        <div class = "mediacontent">
+          <p class = "projecttext">
+            Museum of the Mind is an interactive, AI-assisted VR ideation space.
+            It allows users to explore a museum and co-create art galleries with
+            an AI in an adaptive environment. Users input ideas they want to explore
+            with text-to-speech which is then run through GPT3 to generate related
+            text and a diffusion model to generate related images in real time, in
+            front of the user. EEG data is simultaneously used to manipulate features
+            of the environment to increase immersion. Because of the generative and
+            personalized nature of Museum of the Mind, every session is completely unique.
+          </p>
+          <p class = "projecttext">
+            Museum of the Mind in an ideation space which is intended to let users explore
+            and visualize new ideas. It takes advantage of VR as a way to create and explore
+            spaces which don’t exist in reality, and the environment is intentionally epic
+            and surreal to help users get into a new mindspace. After beginning a new session,
+            users ideate using voice input–anything from keywords to whole sentences. This input
+            is then run through GPT3 to expand on the idea and generate image captions.
+            By utilizing GPT3’s natural language generation to create these image captions,
+            we let the human and the AI co-create, showing users something new to build off of or
+            play with as they ideate about their concept. The image captions are then passed to our server,
+            which uses a diffusion model to generate images, each of which will be completely unique.
+            Users can then continue on in the space giving a new prompt or expanding on previous exhibits
+            in each gallery.
+          </p>
+          <div class = "imagescontainer">
+            <img src = 'images/ofProjects/Museum/Museum1.png' class = "imageinset">
+            <img src = 'images/ofProjects/Museum/Museum2.png' class = "imageinset">
+          </div>
+          <div class = "imagescontainer">
+            <img src = 'images/ofProjects/Museum/Museum3.png' class = "imageinset">
+            <img src = 'images/ofProjects/Museum/Museum4.png' class = "imageinset">
+          </div>
+          <p class = "projecttext">
+            <span class = "emphasis">APK link: </span> REMINDER TO ADD LINK
+          </P>
+        </div>
+
+
+
+        <h3 class = "teamname">SlideMill</h3>
+        <!-- Add apk links, demo video from final assignment -->
+        <h4 class = "personname">Jack Eastman</h4>
+        <div class = "personcontainer">
+          <!---<img src = 'images/ofPeople/AubreySimonson.jpg' class = "portrait">-->
+          <span class = "persondescription">
+             Embedded devices and Integration
+          </span>
+        </div>
+        <h4 class = "personname">Jack Lewis</h4>
+        <div class = "personcontainer">
+          <!---<img src = 'images/ofPeople/AubreySimonson.jpg' class = "portrait">-->
+          <span class = "persondescription">
+             Unity Developer
+          </span>
+        </div>
+        <h4 class = "personname">AhnPhu Nguyen</h4>
+        <div class = "personcontainer">
+          <!---<img src = 'images/ofPeople/AubreySimonson.jpg' class = "portrait">-->
+          <span class = "persondescription">
+             Treadmill Engineer
+          </span>
+        </div>
+        <h4 class = "personname">Luka Srsic</h4>
+        <div class = "personcontainer">
+          <!---<img src = 'images/ofPeople/AubreySimonson.jpg' class = "portrait">-->
+          <span class = "persondescription">
+             Treadmill Engineer
+          </span>
+        </div>
+
+        <div class = "mediacontent">
+          <p class = "projecttext">
+            Slidemill is an immersive device aimed at bringing cheaper and more accessible virtual
+            reality treadmills to the market. Utilizing a DIY treadmill design, along with accessible
+            electronics, we were able to create an omnidirectional passive treadmill that interfaces with
+            the Oculus Quest 2 to allow users to control locomotion in virtual reality using their real legs,
+            walking. With such a design, virtual reality becomes infinitely more immersive, with your
+            motions in the real world being tracked and translated into the virtual space. By syncing real
+            world and virtual movements this also goes a long way to counter one of virtual reality’s
+            biggest problems: motion sickness.
+          </p>
+          <p class = "projecttext">
+            Our project centers around the idea of an omnidirectional treadmill, a treadmill upon
+            which a user can walk indefinitely in any direction. This would allow the user to have much
+            more immersion, being able to walk themselves around their virtual space without limits,
+            rather than needing to utilize a joystick or teleportation locomotion. To accomplish this, we
+            built a low cost treadmill system that employs slippery materials in order to allow a user to
+            slide their feet along the surface. The user is held in place with a support system, preventing
+            them from moving off of the treadmill or falling down. Two slippery shoe covers are provided
+            for the user’s feet, to enhance the sliding, as well as ensure that the experience would be the
+            same across users, while still allowing versatility in shoe choice without limiting accessibility.
+            The treadmill was constructed primarily with spare wood, utilizing a large machine bearing to
+            allow the user’s support system to turn with them. Many of the friction reducing surfaces were
+            made from pieces of whiteboard, a material students are likely to be able to find for free. This
+            low cost, DIY approach to building the treadmill will hopefully inspire more makers and creators
+            to look more into the underserved market.
+          </p>
+          <p class = "projecttext">
+            To integrate the motions of the user into the virtual reality space, we utilized two ESP32
+            microcontrollers, communicating with an icm20948 inertial measurement unit, one for each
+            foot. In addition, there is a button placed on the bottom of each foot to ensure that the user’s
+            movement data was more accurate and that their motions would only be captured if their feet
+            were on the ground. The devices would be attached to the user's foot to measure acceleration,
+            rotation, and magnetometer data. The data from this was then filtered in order to provide
+            smooth measurements to the Quest 2. On the Quest, these measurements were interpreted
+            into locomotion data for the user. Then, the Quest, using this data, would move the user
+            around in the virtual world, according to the measurements from the ESP32.
+          </p>
+          <p class = "projecttext">
+            Combining the omnidirectional passive treadmill and the foot tracking devices, one
+            could theoretically walk for an infinite amount in any direction, thus greatly increasing the
+            immersion of their virtual reality experience. Without the limitations of a user’s physical space,
+            immersion is greatly increased. Users are no longer bound by the confines of their rooms, and
+            instead can explore the virtual world, walking and running without constraints. In our vision,
+            we wanted to bring this experience to more users, to make it more accessible. In this project,
+            we believe that we have demonstrated that this is possible. Next generation VR locomotion can
+            be made accessible to more users.
+          </p>
+          <div class = "imagescontainer">
+            <img src = 'images/ofProjects/SlideMill/SlideMill1.jpg' class = "imageinset">
+            <img src = 'images/ofProjects/SlideMill/SlideMill2.png' class = "imageinset">
+          </div>
+          <div class = "imagescontainer">
+            <img src = 'images/ofProjects/SlideMill/SlideMill4.png' class = "imageinset">
+          </div>
+          <p class = "projecttext">
+            <span class = "emphasis">APK link: </span> REMINDER TO ADD LINK
+          </P>
+        </div>
+
+
+        <h3 class = "teamname">AR Storybook</h3>
+        <!---Add apk link-->
+        <h4 class = "personname">Margaret Wang</h4>
+        <div class = "personcontainer">
+          <!---<img src = 'images/ofPeople/AubreySimonson.jpg' class = "portrait">-->
+          <span class = "persondescription">
+             Optional bio here.
+          </span>
+        </div>
+        <h4 class = "personname">Preston Bezos</h4>
+        <div class = "personcontainer">
+          <!---<img src = 'images/ofPeople/AubreySimonson.jpg' class = "portrait">-->
+          <span class = "persondescription">
+             Optional bio here.
+          </span>
+        </div>
+
+        <div class = "mediacontent">
+          <p class = "projecttext">
+            In this project we have created an AR application that merges computer vision and
+            storytelling to augment beloved storybooks. Users are able to point their phones at an
+            existing children’s book (for this project, “The Snowy Day” by Ezra Jack Keats) and the
+            characters and objects in the book come to life as 3D assets before their eyes. This 3D
+            representation emerges perpendicular from the book, and can be viewed from all angles
+            by moving the book or phone around. The user can admire the art and read the story,
+            and when they are ready, flip the page for the next element of the story.
+          </p>
+          <div class = "imagescontainer">
+            <img src = 'images/ofProjects/ARStorybook/ARStorybook1.png' class = "imageinset">
+            <img src = 'images/ofProjects/ARStorybook/ARStorybook2.png' class = "imageinset">
+          </div>
+          <div class = "imagescontainer">
+            <img src = 'images/ofProjects/ARStorybook/ARStorybook3.png' class = "imageinset">
+            <img src = 'images/ofProjects/ARStorybook/ARStorybook4.png' class = "imageinset">
+          </div>
+          <p class = "projecttext">
+            <span class = "emphasis">APK link: </span> REMINDER TO ADD LINK
+          </P>
+        </div>
+
+
+
+        <h3 class = "teamname">Rhythm Rider</h3>
+        <h4 class = "personname">Andrew Emmel</h4>
+        <div class = "personcontainer">
+          <!---<img src = 'images/ofPeople/AubreySimonson.jpg' class = "portrait">-->
+          <span class = "persondescription">
+             Flex/Visuals
+          </span>
+        </div>
+        <h4 class = "personname">Haley Higginbotham</h4>
+        <div class = "personcontainer">
+          <!---<img src = 'images/ofPeople/AubreySimonson.jpg' class = "portrait">-->
+          <span class = "persondescription">
+             Hardware
+          </span>
+        </div>
+        <h4 class = "personname">Livia Zhang</h4>
+        <div class = "personcontainer">
+          <!---<img src = 'images/ofPeople/AubreySimonson.jpg' class = "portrait">-->
+          <span class = "persondescription">
+             Software
+          </span>
+        </div>
+        <div class = "mediacontent">
+          <p class = "projecttext">
+            Ride away to your favorite songs on an actual skateboard, in VR! We have
+            developed a controller built on top of a skateboard that, when paired along with the
+            experience we developed, allows you to move your character in-game. Simply tilt
+            yourself on the skateboard in order to move your character from side to side in-game,
+            while also trying to ride over the notes.
+          </p>
+          <p class = "projecttext">
+            We designed a controller with a skateboard deck as a base. Basically, it has an
+            IMU to sense changes in rotation on the skateboard. This IMU communicates with an
+            Arduino, which then communicates with the Quest. Changes in rotation are then
+            translated into horizontal movement for the player in-game.
+          </p>
+          <p class = "projecttext">
+            As for the game itself, it takes place in a zen-like environment, with buildings that
+            pop out of the ocean upon hitting notes. These notes are automatically placed as you
+            play a song, meaning you can put any song onto your VR headset and play it in game.
+            We achieve this by analyzing the song and finding where the notes land, and then
+            placing notes on the musical staff/track.
+          </p>
+          <p class = "projecttext">
+            We’re hoping the mix of a unique physical interaction alongside fun gameplay will
+            create a compelling demo for everybody!
+          </p>
+          <div class = "imagescontainer">
+            <img src = 'images/ofProjects/Rhythm/Rhythm1.png' class = "imageinset">
+            <img src = 'images/ofProjects/Rhythm/Rhythm2.png' class = "imageinset">
+          </div>
+          <div class = "imagescontainer">
+            <img src = 'images/ofProjects/Rhythm/Rhythm3.png' class = "imagealone">
+          </div>
+          <p class = "projecttext">
+            <span class = "emphasis">APK link: </span> REMINDER TO ADD LINK
+          </P>
+        </div>
+
+
+        <h3 class = "teamname">ESCAPE: the Quest</h3>
+        <!-- Add apk links, demo video from final assignment -->
+        <h4 class = "personname">Emeka Ezike</h4>
+        <h4 class = "personname">Jared Scott</h4>
+        <h4 class = "personname">Henry Smith</h4>
+        <h4 class = "personname">Eli Villa</h4>
+
+        <div class = "mediacontent">
+          <p class = "projecttext">
+            ESCAPE: The Quest is a virtual reality escape room that uses various
+            bio signals to make for a more immersive and interactive experience.
+            The escape room consists of a set of challenges, each with a different
+            biosignal hardware component. Particularly, one challenge uses a
+            Brain Computer Interface that was implemented using a Mindflex headband.
+            One challenge uses a heartbeat monitor to provide audio and visual feedback to the user.
+            Although puzzle games and escape rooms have been done in VR, the use of biosignals
+            makes for a novel experience that could be replicated in future VR projects.
+          </p>
+          <p class = "projecttext">
+            You start in a broken down spaceship that has been taken over by an evil AI.
+            Your goal is to repair the ship and find a way to defeat the AI before it’s too late!
+            You wake up to alarms blaring and no power to the ship. You must first restore power
+            by turning the engine back on. This is done by manually overriding the engine with
+            your brain power (BCI puzzle). Then you must find the secret passcode that will cure the AI.
+            \It is on a satellite near the ship that you must navigate to using your thrusters (Debris Challenge).
+            However, there is debris flying around that you must avoid! Hearing and feeling your heartbeat puts
+            the pressure on you to not make a mistake.
+          </p>
+          <p class = "projecttext">
+            Once the passcode is safe in hand, you go to the secret room and put on the virtual reality
+            goggles to enter the metaverse and input the passcode (AR puzzle).
+            Then you have cured the AI and can return home.
+          </p>
+          <div class = "imagescontainer">
+            <img src = 'images/ofProjects/ESCAPE/ESCAPE1.png' class = "imageinset">
+            <img src = 'images/ofProjects/ESCAPE/ESCAPE2.png' class = "imageinset">
+          </div>
+          <div class = "imagescontainer">
+            <img src = 'images/ofProjects/ESCAPE/ESCAPE3.png' class = "imageinset">
+            <img src = 'images/ofProjects/ESCAPE/ESCAPE4.png' class = "imageinset">
+          </div>
+          <p class = "projecttext">
+            <span class = "emphasis">APK link: </span> REMINDER TO ADD LINK
+          </P>
+        </div>
+      </div>
+    </body>
+  </html>
