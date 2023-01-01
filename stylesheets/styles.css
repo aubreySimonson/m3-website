@@ -1,35 +1,35 @@
 body{
     font-family: helvetica;
-    background-color: #F5F5F5;
-    color: #2F3237;
+    background-color: ##F5F5F5;
+    color: #363457;
 }
 
 h1{
   text-align: center;
-  color: #8D3EA3;
+  color: #00ADCC;
 }
 
 h2{
   text-align: center;
-  color: #1B9AAA;
+  color: #FF71CE;
 }
 
 h3{
   text-align: center;
-  color: #FFB01F;
+  color: #00ADCC;
 }
 
 h4{
-  color: #8D3EA3;
+  color: #00ADCC;
 }
 
 .emphasis{
-  color: #8D3EA3;
+  color: #00ADCC;
   font-weight: bold;
 }
 
 .menu{
-  background-color: #1B9AAA;
+  background-color: #201F33;
   width: 100%;
   overflow: auto;
 }
@@ -37,7 +37,7 @@ h4{
 .menuitem{
   width: 33%;
   text-decoration: none;
-  color: #FFB01F;
+  color: #F5F5F5;
   text-align: center;
   float: left;
   font-size: 20px;
@@ -60,6 +60,18 @@ h4{
 .portrait{
   flex: 1;
   max-width: 300px;
+  margin-left: 30px;
+}
+
+.portrait-medium{
+  flex: 1;
+  max-width: 200px;
+  margin-left: 30px;
+}
+
+.portrait-small{
+  flex: 1;
+  max-width: 150px;
   margin-left: 30px;
 }
 
